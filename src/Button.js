@@ -1,18 +1,23 @@
 import React from "react";
 import "./style.css";
+import google from './icons/google.png'
+import microsoft from './icons/microsoft.png'
+import facebook from './icons/facebook.png'
+import instagram from './icons/instagram.png'
+import github from './icons/github.png'
 
 const getIcon = (iconName) => {
   switch (iconName) {
     case 'google':
-      return '/icons/google.png';
+      return google;
     case 'microsoft':
-      return '/icons/microsoft.png';
+      return microsoft;
     case 'facebook':
-      return '/icons/facebook.png';
+      return facebook;
     case 'instagram':
-      return '/icons/instagram.png';
+      return instagram;
     case 'github':
-      return '/icons/github.png';
+      return github;
     default: return ''
   }
 }
